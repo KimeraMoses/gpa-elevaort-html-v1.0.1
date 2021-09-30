@@ -1,0 +1,905 @@
+@import url(https://fonts.googleapis.com/css?family=Acme|Kreon:300|Lobster|Open+Sans+Condensed:300|Roboto&display=swap);
+    :root {
+    --gpa-color: #00795f;
+    --nav-color: #005c48;
+    --unique-color: rgb(11,  218,  207);
+    --gray-color: #eee;
+    --white-color: #fff;
+    --orange-color: #F48B35;
+    --blue-color: #0000ff;
+    --green-color: #008000;
+    --red-color: #ff0000;
+    --lightblue-color: #00aeef;
+    --yellow-color: #ffff00;
+    --special-color: #e8491d;
+    --orangered-color: #ff4500;
+    --black-color: #000;
+    --darkblue-color: #1B3058;
+    --link-color: #007bff;
+    --school-color: #a41d31;
+    --date-color: #cfcfcf;
+    --date-color: #3cbeb4;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    color: #222;
+    background-color: #f4f2f5;
+    font-weight: inherit;
+    scroll-behavior: smooth;
+    overflow-x: hidden!important;
+}
+a:hover{
+    text-decoration: none ;
+}
+header {
+    padding: 0 0;
+    min-height: 110px;
+    background-color: var(--gpa-color);
+    text-align: left;
+}
+.gpa__logo_section {
+    display: inline-block;
+}
+.gpa__banner {
+    height: 100vh;
+    margin: 0 auto;
+}
+#gpa__about_us_section h3 {
+    color: var(--orange-color);
+}
+#gpa__about_us_section a {
+    color: var(--blue-color);
+    text-transform: None;
+}
+.gpa__btn_bg_white {
+    margin-top: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+}
+#gpa__about_us_section {
+    background-color: var(--white-color);
+    margin-bottom: 0;
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 20px;
+    box-shadow: 2px 2px 0 0 rgba(0, 0, 0, .05);
+    font-family: kreon, sans-serif;
+}
+#gpa__carousel {
+    margin-top: 20px;
+}
+#about-us_carousel-slider {
+    margin-bottom: 20px;
+}
+.bd-example {
+    padding-bottom: 0;
+}
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: #000;
+    opacity: .6;
+}
+.carousel_height {
+    height: 400px;
+    width: 100%}
+.carousel-control-prev-icon {
+    height: 50px;
+    width: 40px;
+}
+.carousel-control-next-icon {
+    height: 50px;
+    width: 40px;
+}
+.lead {
+    padding-left: 10px;
+}
+
+#gpa__college_display_area {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.gpa__main_content_area {
+    background-color: var(--white-color);
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid var(--gray-color);
+}
+.gpa__college_title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center!important;
+}
+.gpa__school_dept_name {
+    text-align: left!important;
+    font-family: Acme;
+    color: var(--school-color);
+    text-transform: capitalize!important;
+}
+.gpa__college_content_section h3 {
+    padding: 15px 20px;
+    margin: 0;
+    padding: 5px 10px;
+}
+.gpa__college_content_section a {
+    padding: 2px 5px 2px 5px;
+    margin: 0;
+    display: block;
+    border-bottom: 1px solid var(--gray-color);
+}
+.gpa__college_content_section a:hover {
+    background: rgba(0, 0, 0, .03);
+    text-decoration: none;
+    border-bottom: 2px solid var(--orange-color);
+}
+.gpa__college_content_section a:focus {
+    background: var(--orange-color);
+    color: var(--white-color);
+}
+.gpa__college_content_section {
+    padding: 5px 5px;
+    margin: 0;
+}
+.gpa__college_school_title_container {
+    background-color: var(--darkblue-color);
+    margin-top: 1rem;
+    border-top: 2px solid var(--orange-color);
+    border-radius: 5px;
+    border-left: 10px double var(--orange-color);
+}
+.gpa__college_school_title {
+    color: var(--white-color);
+    font-size: 1.2rem;
+    padding: .2rem;
+    text-transform: uppercase!important;
+}
+.gpa__college_content_section ul {
+    padding: 0 10px 0 20px;
+}
+.gpa__college_content_section ul li {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+}
+.gpa__semester_one_name {
+    color: var(--red-color);
+    cursor: context-menu;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.gpa__dept_course_name {
+    border-bottom: 1px solid var(--gray-color);
+}
+.gpa__college_content_section ul li ul li {
+    display: block;
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    padding: 0 2px 0 10px;
+}
+.gpa__college_content_section ul li ul li ul li {
+    display: none;
+}
+.gpa__college_content_section ul li ul li:hover ul li {
+    display: block;
+    font-size: 18px;
+}
+.gpa__academic_year {
+    color: var(--blue-color);
+    font-weight: 700;
+    cursor: context-menu;
+    text-transform: uppercase!important;
+}
+.gpa__semester_course_unit {
+    font-style: italic!important;
+    text-transform: capitalize;
+}
+.gpa__semester_course_unit a {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.gpa__dept_course_name {
+    color: var(--link-color);
+    font-size: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.gpa__dept_course_name:hover {
+    background: rgba(0, 0, 0, .03);
+    color: var(--green-color);
+}
+.gpa__course_checkbox {
+    display: none;
+}
+.gpa__course_label {
+    margin-bottom: 0!important;
+    width: 100%}
+.gpa__course_checkbox:checked+.gpa__course_label .gpa__dept_course_name {
+    color: var(--green-color)!important;
+    background: rgba(0, 0, 0, .03);
+}
+.gpa__notice_board_title_wrapper {
+    background-color: #eee;
+    color: #222;
+    padding-top: 20px;
+}
+.gpa__notice_board_inner {
+    background-color: #f7b230;
+    padding: 15px 50px;
+}
+.gpa__notice_board_inner h3 {
+    background-color: #0746b6;
+    border: 1px solid #bdc69f;
+    color: #fff;
+    text-align: center;
+}
+.gpa__recent_notice {
+    position: relative;
+    background: #fff;
+    height: 85px!important;
+    text-align: left!important;
+    padding: 3px 0 0 3px;
+    margin: 0;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+.gpa__recent_notice_thumbnail_wrapper {
+    float: left;
+}
+.gpa__recent_notice_content_wrapper {
+    margin-left: 75px;
+    padding-left: 15px;
+    text-align: left!important;
+}
+.gpa__recent_notice_post_meta {
+    padding-right: 10px;
+}
+.gpa__post_date {
+    background-color: var(--school-color);
+    color: var(--white-color)!important;
+    border-top-left-radius: 10px;
+    padding: 3px;
+    font-size: 10px;
+}
+.gpa__recent_notice_post_date {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+}
+.gpa__recent_notice .gpa__recent_notice_title {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.4em;
+    letter-spacing: normal;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}
+.gpa__recent_notice_title a:hover {
+    color: var(--unique-color);
+    text-decoration: none;
+}
+.scrollable {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 455px;
+}
+.gpa__notice_area {
+    background-color: #fff;
+    padding: 10px;
+}
+.gpa__current_notice_title {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #212121;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+.gpa__current_notice_content p {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28;
+    line-height: 30px;
+    color: #000;
+    text-rendering: optimizeLegibility;
+    text-align: justify;
+}
+.gpa__notice_author img {
+    border-radius: 100%;
+    margin-right: 5px;
+    backface-visibility: hidden;
+}
+.gpa_current_notice_thumbnail_inner {
+    position: relative;
+}
+.gpa__current_notice_post_date {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    font-size: 17px;
+}
+.gpa__current_notice_meta_location {
+    padding-top: 28px;
+}
+#gpa__college_sidebar_guidelines_wrapper {
+    border-bottom: 1px solid var(--gray-color);
+    text-align: center;
+    margin-bottom: 10px;
+}
+#gpa__college_sidebar_guidelines_wrapper p {
+    color: var(--white-color);
+}
+.gpa__sidebar_website_guide {
+    text-align: center!important;
+}
+#gpa__college_sidebar {
+    background-color: var(--darkblue-color);
+    color: var(--orange-color);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 0 0 rgba(0, 0, 0, .05);
+    width: 305px;
+}
+#gpa__college_sidebar a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--white-color);
+}
+#gpa__college_sidebar_university_logo {
+    width: 100px;
+}
+.gpa__sidebar_quick_links_wrapper ul li {
+    float: none;
+    list-style: none;
+    text-align: left;
+}
+.gpa__college_sidebar_university_links_wrapper a {
+    padding: 5px 10px 5px 5px;
+    margin: 0;
+    display: block;
+    border-bottom: 1px solid var(--gray-color);
+}
+.gpa__college_sidebar_quick_link {
+    line-height: 1.7;
+    margin: 0;
+}
+.gpa__college_sidebar_quick_link a:hover {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+}
+#gpa__services {
+    padding: 0;
+    text-align: center;
+    height: 42px;
+    border-bottom: 3px solid #eee;
+    border-top: 3px solid #eee;
+}
+#gpa__services h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.gpa__our_services_wrapper {
+    min-height: 18vh;
+    padding: 30px;
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, .6), rgba(40, 180, 131, .6)), url(../img/revise2.jpg);
+    background-position: top;
+    background-size: cover;
+    margin-bottom: 1px;
+}
+.gpa__service_card {
+    background-color: #fff;
+    opacity: .8;
+    padding: 5px;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 1.5px 4px rgba(#000, .15);
+    transition: transform .3s;
+    font-family: Acme, sans-serif;
+}
+.gpa__service_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0 , .1);
+}
+.gpa__service_card h3 {
+    color: var(--green-color);
+}
+.gpa__icon {
+    font-size: 50px;
+    display: inline-block;
+}
+.gpa__btn:link, .gpa__btn:visited {
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    margin-bottom: 20px;
+    position: relative;
+    color: #fff;
+}
+.btn--blue {
+    color: #fff;
+    background: var(--blue-color);
+}
+.btn:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+.btn:active {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+.btn--blue::after {
+    background-color: var(--blue-color);
+}
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+
+
+.gpa__trending_news_bullet {
+    margin-top: 20px;
+}
+.gpa__main_post {
+    margin-bottom: 5px;
+}
+.gpa__post_thumbnail_small_wrapper {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 1;
+    -webkit-transition: opacity .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.gpa__post_thumbnail_small_wrapper img{
+    border-radius: 20px;
+}
+.gpa__trending_news_main_inner {
+    background-color: #fff!important;
+    padding: 10px;
+}
+.gpa__trending_news_main h4 {
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.gpa__trending_news_main h4 a {
+    color: #222;
+}
+.gpa__trending_news_bullet a:hover {
+    color: var(--special-color);
+    text-decoration: none;
+}
+.gpa__news_cat_title_wrapper h5 {
+    background-color: var(--darkblue-color);
+    color: var(--white-color);
+    padding: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    border-top: 3px solid var(--orange-color);
+    text-transform: uppercase!important;
+    border-bottom-left-radius: 20px;
+    font-weight: 700;
+}
+.gpa__news_sidebar_cat_title_wrapper h5 {
+    background-color: var(--unique-color)!important;
+    color: #fff;
+    border: none;
+}
+.gpa__post_thumbnail_small_wrapper .thumb img {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    -webkit-transition: opacity .35s, -webkit-transform .35s;
+    transition: opacity .35s, transform .35s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.gpa__trending_news_main img {
+    max-width: 100%;
+    height: auto;
+}
+.gpa__trending_news_main .row-type .post-c-wrap {
+    margin-top: 15px;
+}
+.gpa__trending_news_main ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.gpa__post_title{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 1.3;
+    color: #222!important;
+    transition: background-color .2s ease-in-out;
+    -webkit-transition: background-color .2s ease-in-out;
+}
+
+.gpa__post_title a:visited, a:focus {
+    text-decoration: none!important;
+    color: inherit;
+    outline: 0!important;
+}
+.gpa__post_title a:hover {
+    text-decoration: none;
+    color:var(--unique-color);
+}
+.gpa__trending_news_main .gpa__main_post .meta {
+    display: inline-block;
+}
+.meta>div {
+    display: inline;
+    margin-right: 12px;
+    color: #aaa;
+    font-size: 12px;
+}
+.gpa__news_cat_separator {
+    color: var(--unique-color);
+}
+.gpa__news_sidebar_highlights {
+    border-left: 1px solid #ccc;
+}
+.gpa__post_excerpt {
+    text-align: left!important;
+    padding: 0!important;
+    color: #222!important;
+}
+.gpa__student_submit_notice_wrapper {
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+.gpa__student_submit_notice_wrapper a {
+    font-size: 24px;
+}
+.gpa__news_most_viewed_posts_wrapper {
+    background-color: #fff;
+    padding: 0 5px 0 5px;
+}
+.gpa__news_sidebar_article {
+    margin-bottom: 25px;
+    overflow: hidden;
+    margin-left: 10px;
+    border-bottom: 1px solid #eee;
+}
+.gpa__news_sidebar_article .gpa__news_sidebar_thumbnail_wrapper {
+    width: 120px;
+    float: left;
+}
+.gpa__news_sidebar_thumbnail_wrapper {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    border-radius: 10px;
+}
+.gpa__news_sidebar_post_thumbnail_wrapper{
+    border-radius: 10px;
+}
+.gpa__news_sidebar_article .gpa__news_sidebar_content_wrapper {
+    margin-left: 120px;
+    padding-left: 15px;
+    text-align: left!important;
+}
+.gpa__news_sidebar_article .gpa__news_sidebar_post_title {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin: 0 0 5px;
+    letter-spacing: normal;
+}
+.gpa__news_sidebar_post_title a {
+    color: #212121;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
+}
+.gpa__news_sidebar_post_title a:hover {
+    color: var(--unique-color) !important;
+}
+.entry-header .gpa__news_sidebar_post_title, .gpa__news_sidebar_post_title, .jeg_single_tpl_2 .entry-header .gpa__news_sidebar_post_title, .jeg_single_tpl_3 .entry-header .gpa__news_sidebar_post_title, .jeg_single_tpl_6 .entry-header .gpa__news_sidebar_post_title {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.gpa__news_sidebar_post_meta a {
+    font-size: 11px;
+    text-transform: capitalize;
+}
+.gpa__news_sidebar_post_meta .gpa__news_sidebar_post_date_link {
+    color: #fff;
+}
+.gpa__news_sidebar_post_meta>div {
+    display: inline-block;
+}
+.gpa__post_excerpt p {
+    margin-bottom: 0!important;
+}
+.gpa__post_excerpt .gpa__btn_more {
+    color: var(--white-color)!important;
+    background-color: var(--school-color);
+    padding: 4px;
+    font-size: 14px;
+    border-top-right-radius: 10px;
+}
+.gpa__post_excerpt .gpa__btn_more:hover {
+    background-color: var(--unique-color);
+}
+
+
+
+
+
+
+
+
+/*
+  ==================================
+         FOOTER SECTION
+ ==================================
+*/
+footer {
+    border-top: 1px solid var(--orange-color);
+}
+#gpa__disclaimer_wrapper {
+    background-color: #35423a;
+    color: var(--white-color);
+    padding-bottom: 5px;
+    margin: 0;
+    font-style: italic;
+    font-family: Acme;
+}
+#gpa__disclaimer_wrapper h1 {
+    text-align: center;
+    color: var(--special-color);
+    font-weight: 700;
+    font-size: 40px;
+}
+.fa-exclamation-circle {
+    margin-top: 10px;
+}
+#gpa__footer_copyright_wrapper {
+    background-color: var(--special-color);
+    color: var(--white-color);
+    height: auto;
+    padding: 1px;
+}
+#gpa__footer_copyright_wrapper h6 {
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: Acme;
+}
+#gpa__footer_copyright_wrapper h6 a {
+    color: var(--nav-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+#gpa__footer_copyright_wrapper h6 a:hover {
+    color: var(--white-color);
+}
+#gpa__footer_wrapper {
+    background-color: #1b3058;
+    color: #d3dde6;
+    padding-top: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.gpa__footer_menu {
+    border-top: 1px solid #ff4500!important;
+}
+#gpa__footer_wrapper h4 {
+    background-color: var(--darkblue-color);
+    color: var(--white-color);
+    padding: 3px;
+    border-left: 10px solid var(--unique-color);
+    border-right: 1px solid var(--orange-color);
+    text-transform: uppercase;
+    text-align: left!important;
+    font-weight: 400;
+    border-top: 5px solid var(--orange-color);
+    border-bottom: 1px solid var(--orange-color);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#gpa__footer_wrapper ul li {
+    text-align: justify;
+    padding-left: 45px;
+}
+#gpa__footer_wrapper a {
+    color: var(--orange-color);
+}
+#gpa__footer_wrapper a:hover {
+    color: var(--unique-color);
+    text-decoration: none;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 10px;
+    left: 2px;
+    z-index: 99;
+    border: none;
+    outline: 0;
+    opacity: .6;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.gpa__university_title {
+    font-family: Acme, cursive!important;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.gpa__university_logo {
+    width: 140px;
+}
+.gpa__university_description p {
+    font-style: italic;
+    text-align: justify;
+}
+.gpa__university_college {
+    border-bottom: 1px solid #eee;
+    text-transform: capitalize!important;
+}
+.gpa__university_college a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize!important;
+}
+.gpa__university_description {
+    padding: 10px;
+}
+.gpa__university_colleges_facaulty_schools_wrapper h4 {
+    text-align: center!important;
+}
+.gpa__university_college a:hover {
+    color: #1fbd1f;
+}
+.gpa__user_submited_col {
+    text-align: left!important;
+    padding-left: 0!important;
+}
+.gpa__user_submited_col a:hover {
+    text-decoration: none;
+}
+.gpa__user_submited_post_title {
+    text-align: center!important;
+    font-family: Acme;
+    text-transform: capitalize!important;
+    box-shadow: #fffcfc 1px 1px 1px 1px, rgba(0, 0, 0, .0980392) 3px 6px 1px, rgba(0, 0, 0, .0980392) 0 0 5px, rgba(0, 0, 0, .298039) 0 1px 3px, rgba(0, 0, 0, .14902) 0 3px 5px;
+}
+.gpa__user_submited_post_inner p {
+    padding: 10px;
+}
+.gpa__user_submited_post_form_wrapper {
+    padding: 10px;
+    margin-top: -20px;
+}
+.gpa__user_submited_post_form_wrapper #usp_form label {
+    font-size: 17px!important;
+    font-family: Acme;
+}
+.gpa__user_submited_post_form_wrapper .usp-textarea {
+    border-radius: 20px;
+    border: 1px solid var(--unique-color);
+    padding-left: 10px;
+}
+.gpa__user_submited_post_form_wrapper .usp-select {
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid var(--unique-color);
+}
+.gpa__user_submited_post_form_wrapper .usp-input {
+    border-radius: 20px;
+    padding: 2px;
+    padding-left: 5px;
+    border: 1px solid var(--unique-color);
+}
+.gpa__user_submited_post_form_wrapper .usp-clone {
+    border: none!important;
+    color: var(--unique-color);
+}
+.gpa__user_submited_post_form_wrapper .usp-file-preview {
+    height: 150px!important;
+    margin: 10px 0 -10px 5px!important;
+}
+.gpa__user_submited_post_form_wrapper #usp-submit {
+    width: 100%!important;
+    text-align: center!important;
+    margin: 0!important;
+}
+.gpa__user_submited_post_form_wrapper .usp-submit {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 26px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    font-weight: 700;
+    box-shadow: #ccc 1px 1px 0, #c9c9c9 2px 2px 0, #bbb 3px 3px 0, #b9b9b9 4px 4px 0, #aaa 3px 5px 0, rgba(0, 0, 0, .0980392) 3px 6px 1px, rgba(0, 0, 0, .0980392) 0 0 5px, rgba(0, 0, 0, .298039) 0 1px 3px, rgba(0, 0, 0, .14902) 0 3px 5px, rgba(0, 0, 0, .2) 0 5px 10px, rgba(0, 0, 0, .2) 0 10px 10px, rgba(0, 0, 0, .0980392) 0 20px 20px, 0 0 5px rgba(0, 0, 0, .5);
+}
+.gpa__user_submited_post_form_wrapper .usp-submit:hover {
+    background-color: #0ebc7f;
+}
+#usp-success-message {
+    color: #0ebc7f;
+}
+#gpa__right_sidebar {
+    margin-top: 20px;
+    background-color: var(--white-color);
+    border: 1px solid #eee;
+    padding: 20px;
+}
+#gpa__right_sidebar h4 {
+    background-color: var(--darkblue-color);
+    color: var(--white-color);
+    padding: 3px;
+    margin-bottom: 15px;
+    border-left: 10px solid var(--unique-color);
+    text-transform: uppercase;
+    text-align: left!important;
+    font-weight: 400;
+    border-top: 5px solid var(--orange-color);
+    border-top-right-radius: 20px;
+    padding-left: 10px;
+}
+#gpa__right_sidebar li {
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+}
+#gpa__right_sidebar a, #gpa__right_sidebar li {
+    color: #6c757d;
+    text-align: left;
+    text-decoration: none;
+}
+#gpa__right_sidebar li a:before {
+    content: '>>> ';
+    color: var(--nav-color);
+}
+#gpa__right_sidebar a:hover {
+    list-style: none;
+    text-decoration: none;
+    color: var(--gpa-color);
+}
+#gpa__right_sidebar li:hover {
+    transform: translateX(10px);
+    transition: all .2s;
+}

@@ -1,0 +1,300 @@
+@media (max-width:1349px) {
+  nav ul li {
+  min-width: 108px!important;
+}
+}@media (max-width:1301px) {
+  nav ul li {
+  min-width: 100px!important;
+}
+}@media (max-width:1212px) {
+  nav ul li {
+  min-width: 90px!important;
+}
+}@media (max-width:1110px) {
+  nav ul li {
+  min-width: 80px!important;
+}
+}@media (max-width:1030px) {
+  nav ul li {
+  min-width: 70px!important;
+}
+}@media (max-width:974px) {
+  nav ul li {
+  min-width: 65px!important;
+}
+.gpa__notice_board_inner {
+  padding: 10px 0 0 0!important;
+}
+.gpa__notice_board_inner h3 {
+  margin-top: 5px;
+}
+.gpa__current_notice_thumbnail_wrapper {
+  margin-bottom: 10px;
+}
+}@media (max-width:966px) {
+  nav {
+  display: none!important;
+}
+header {
+  border-bottom: 3px solid var(--orange-color);
+}
+.gpa__swap_column {
+  display: flex;
+  flex-direction: column-reverse;
+}
+}@media (max-width:860px) {
+  .gpa__campus_food_hidden .gpa__campus_food_advert {
+  display: none!important;
+}
+.gpa__notice_lable {
+   right: 15px;
+}
+}@media (max-width:768px) {
+  .gpa__register_user {
+  padding: 0 45px 4px 5px;
+}
+.gpa__contact_list {
+  margin-left: 0;
+  text-align: left;
+}
+}@media (max-width:801px) {
+  .login-signup-section {
+  text-align: left;
+  padding-bottom: 5px!important;
+  min-height: 40px;
+}
+.questionSection__ask {
+  padding-left: 0;
+  padding-right: 0;
+}
+#the_gpa_team {
+  margin: 0!important;
+}
+.team-members-card {
+  background-color: #fff;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
+  margin-bottom: 2rem;
+  margin-right: 0!important;
+}
+#pastpaper_display_area {
+  padding-right: 0!important;
+  padding-left: 0!important;
+}
+.gpa__contact_list {
+  margin-left: 0;
+  text-align: left;
+}
+.gpa__college_title {
+  font-size: 22px;
+}
+#navbar {
+  display: none!important;
+}
+}@media (max-width:667px) {
+  .gpa__student_card_wrapper {
+  padding-right: 0;
+  padding-left: 0;
+}
+}@media (max-width:600px) {
+  header img {
+  align-content: center;
+}
+#header__img {
+  width: 200px!important;
+  min-height: 100px;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+.gpa__contact_list {
+  margin-left: 0;
+  text-align: center;
+}
+#gpa__pastpaper_display_wrapper, #gpa__university_display_area {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+.gpa__courseunit_sidebar_wrapper ul, .gpa__pastpaper_display_wrapper ul {
+  padding: 5px 10px 5px 4px;
+}
+#gpa__pastpaper_display_wrapper .gpa__courseunit_name {
+  font-size: 25px;
+}
+}@media (max-width:570px) {
+  .gpa__content_main_mobile {
+  padding-right: 0!important;
+  padding-left: 0!important;
+}
+.gpa__university_colleges_facaulty_schools_wrapper {
+  padding: 10px;
+}
+#lecture_notes, #schools {
+  margin-left: 0!important;
+  margin-right: 0!important;
+  margin-bottom: -15px!important;
+}
+#pastpaper_display_area {
+  margin-top: 1rem;
+  margin-left: 0;
+}
+.courseunit_name {
+  font-size: 1rem!important;
+}
+.pastpaper_display_area ul li {
+  padding-left: 0px!important;
+  font-size: .9rem!important;
+}
+#gpa__college_display_area {
+  text-align: left!important;
+}
+/* .gpa__college_content_section ul li ul li ul {
+  padding-inline-start: 0!important;
+}
+#gpa__college_display_area ul {
+  padding-inline-start: 0!important;
+}
+#gpa__college_display_area ul .gpa__academic_year, #gpa__college_display_area ul .gpa__semester_one_name {
+  padding-inline-start: 8px!important;
+} */
+.gpa__academic_year {
+  text-align: left!important;
+}
+#gpa__college_sidebar {
+  width: 100%!important;
+}
+.gpa__college_content_section ul {
+  padding: 0 0 0 20px;
+}
+.gpa__college_content_section a {
+  padding: 2px 0 2px 5px;
+}
+.gpa__current_notice_meta_location {
+  padding-top: 10px;
+}
+}@media(max-width:550px) {
+  .gpa__logo_wrapper {
+  min-height: 170px;
+}
+#carousel_height {
+  height: 200px!important;
+}
+.schools {
+  padding: 5px!important;
+  text-align: center!important;
+}
+.department a {
+  padding-left: .7rem!important;
+}
+#gpa__college_display_area, #schools {
+  padding-right: 0!important;
+  padding-left: 0!important;
+}
+.gpa__college_content_section {
+  padding: 7px!important;
+}
+.gpa__college_content_section h4 {
+  padding: 5px 10px!important;
+}
+.gpa__college_content_section h3.title {
+  padding: 15px 3px!important;
+}
+#gpa__college_display_area h3 {
+  font-size: 1.3rem!important;
+}
+.gpa__dept_course_name {
+  margin-left: 0;
+}
+.gpa__campus_food_advert {
+  padding-top: 0!important;
+}
+.gpa__logo_col {
+  border-bottom: 1px solid orange;
+  height: 140px;
+}
+.gpa__register_user {
+  padding: 16px 100px 10px 98px!important;
+}
+}@media screen and (max-width:549px) {
+  .gpa__banner {
+  margin: 0 auto;
+  padding: 10px;
+}
+#gpa__about_us_section {
+  margin-top: 10px;
+  padding: 8px;
+}
+#gpa__carousel {
+  padding-right: 0!important;
+  padding-left: 0!important;
+}
+.gpa__our_services_wrapper {
+  padding: 5px;
+}
+.disclaimer {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+#gpa__college_sidebar {
+  margin-top: 20px;
+}
+.gpa__college_content_section {
+  margin-left: 0!important;
+}
+.gpa__college_content_section ul li ul li {
+  display: block;
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  padding: 0 2px 0 0;
+}
+.gpa__dept_course_name {
+  font-size: 17px;
+}
+.gpa__search_submit_btn {
+  margin-right: 0;
+}
+}@media screen and (max-width:526px) {
+  /* header {
+  border-top-left-radius: 10px!important;
+  border-top-right-radius: 10px!important;
+} */
+}@media (max-width:439px) {
+  .updates {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+}@media (max-width:363px) {
+  .gpa__college_school_title {
+  font-size: 1rem;
+  padding: .1rem;
+}
+}@media (max-width:301px) {
+  .gpa__contact_list {
+  margin-left: 0;
+  text-align: center;
+}
+}@media (max-width:285px) {
+  .gpa__college_title {
+  font-size: 18px;
+}
+.gpa__campus_food_wrapper {
+  padding-left: 0!important;
+}
+.gpa__register_user {
+  padding: 8px 90px 4px 10px;
+}
+#gpa__pastpaper_display_wrapper .gpa__courseunit_name {
+  font-size: 20px;
+}
+.gpa__university_colleges_facaulty_schools_wrapper h4 {
+  font-size: 20px!important;
+}
+.gpa__university_college a {
+  font-size: 16px!important;
+}
+}
+@media (max-width:250px) {
+  .gpa__banner {
+  padding: 5px;
+}
+}
